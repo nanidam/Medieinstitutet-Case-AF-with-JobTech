@@ -6,6 +6,6 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ["@digi/arbetsformedlingen"],
   },
-  base: "/Case-AF-with-JobTech/",
+  base: "/Medieinstitutet-Case-AF-with-JobTech/",
   plugins: [react()],
 });
