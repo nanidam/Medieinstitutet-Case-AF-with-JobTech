@@ -1,0 +1,42 @@
+@import "/src/style/variables";
+
+.home{
+  padding-top: 30px;
+  img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 60px;
+    width: 1000px!important;
+  }
+  button{
+    margin-right: 20px;
+    margin-top: 10px;
+    a{
+      text-decoration: none;
+      color: #FFFFFF;
+      font-weight: bold;
+  
+      &:visited{
+        color: #FFFFFF;
+      }
+    }
+  }
+}
+
+.sc-digi-button-h .digi-button--variation-primary.sc-digi-button:hover{
+  --COLOR--BACKGROUND--HOVER: #082a61;
+}
+
+@media (min-width: 1000px) {
+  .home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .sc-digi-media-image{
+      display: block;
+      margin-top: 0;
+      width: 450px!important;
+    }
+  }
+}

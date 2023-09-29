@@ -1,0 +1,48 @@
+@import "/src/style/variables";
+
+.edu-loader{
+    position: relative;
+    top: 50%;
+}
+
+.eduSearchResults{
+    .search-edu-img{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pagination-wrapper {
+        margin-top: 15px;
+        width: 572px;
+    }
+}
+
+.pagination-wrapper {
+    margin-top: 15px;
+    width: 572px;
+    color:$complementary2-darker;
+
+    .edu-pagination .sc-digi-button-h .digi-button--variation-secondary.sc-digi-button{
+        color:$complementary2-darkest;
+        border: 1px solid $complementary2-darker;
+    }
+    svg {
+        color:$complementary2-darker;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .eduSearchResults{
+        .sc-digi-media-image{
+            width: 400px!important;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .eduSearchResults{
+        .sc-digi-media-image{
+            width: 600px!important;
+        }
+    }
+}
