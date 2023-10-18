@@ -7,10 +7,10 @@ export const findDeficiencyValues = (getData: ICurrentOccupationalForecast[], ss
 
   if (data.length > 0) {
     const findDeficiencyValue23 = data.find(
-      (rightMatch) => rightMatch.ar === 23
+      (rightMatch) => rightMatch.ar === 2023
     );
     const findDeficiencyValue26 = data.find(
-      (rightMatch) => rightMatch.ar === 26
+      (rightMatch) => rightMatch.ar === 2026
     );
     return { deficiencyValue2023: findDeficiencyValue23, deficiencyValue2026: findDeficiencyValue26 };
   }
